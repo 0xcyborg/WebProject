@@ -1,0 +1,28 @@
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+footer div {
+  display: inline-block;
+  margin: 0 90px;
+}
+
+footer .first-section {
+  margin-left: 220px;
+}
+
+footer div ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer div a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div ul li {
+  margin: 5px 0px;
+}

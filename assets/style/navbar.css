@@ -1,0 +1,28 @@
+nav {
+  background-color: #0056b3;
+  color: white;
+  padding: 15px;
+  overflow: hidden;
+}
+
+nav h1 {
+  float: left;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.nav-links {
+  float: right;
+  padding-right: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.user-icon {
+  vertical-align: middle;
+  margin-left: 10px;
+}

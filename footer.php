@@ -1,0 +1,31 @@
+<?php
+echo '<footer>';
+echo '<div class="first-section">';
+echo '<h3>About HomeAway</h3>';
+echo '<ul>';
+echo '<li><a href="#">Post a Listing</a></li>';
+echo '<li><a href="#">Trust & Safety</a></li>';
+echo '<li><a href="#">Partner Resources</a></li>';
+echo '<li><a href="#">Travel Guides</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<div>';
+echo '<h3>Company</h3>';
+echo '<ul>';
+echo '<li><a href="#">Who are we?</a></li>';
+echo '<li><a href="#">Affiliation / Contact us</a></li>';
+echo '<li><a href="#">Terms of use</a></li>';
+echo '<li><a href="#">Privacy policy</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '<div>';
+echo '<h3>Meet our family</h3>';
+echo '<ul>';
+echo '<li><a href="https://www.vrbo.com">Vrbo</a></li>';
+echo '<li><a href="https://www.abritel.fr">Abritel.fr</a></li>';
+echo '<li><a href="https://www.fewo-direkt.de">FeWo-direkt.de</a></li>';
+echo '<li><a href="https://www.bookabach.co.nz">Bookabach.co.nz</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</footer>';
+?>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DZHouse</title>
+    <link rel="stylesheet" href="assets/style/common.css">
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="stylesheet" href="assets/style/navbar.css">
     <link rel="stylesheet" href="assets/style/footer.css">
@@ -12,10 +13,10 @@
     <?php include 'navbar.php'; ?>
     
     <header>
-        <form method="GET" class="search-box">
-            <input type="text" placeholder="Location">
-            <input type="text" placeholder="Dates">
-            <input type="text" placeholder="People">
+        <form method="GET" action="search.php" class="search-box">
+            <input type="text" name="location" placeholder="Location">
+            <input type="date" name="dates" placeholder="Dates">
+            <input type="number" name="people" placeholder="People" min="1">
             <input type="submit" value="Search" class="searchBtn">
         </div>
     </header>

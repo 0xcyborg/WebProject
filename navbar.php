@@ -1,6 +1,6 @@
 <?php
 echo '<nav>';
-echo '<h1>DZHouse</h1>';
+echo '<a style="color: white" href="index.php"><h1>DZHouse</h1></a>';
 echo '<div class="nav-links">';
 echo '<a href="#">Publish an ad</a>';
 echo '<a href="#">Help</a>';
